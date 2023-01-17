@@ -1,0 +1,18 @@
+1. Functionality: 3.5/4
+  * Your implementation is very slow.  I did a little digging
+    and this is not really your fault-- the keySet method in
+    structure5's Hashtable implementation implements sets using
+    SinglyLinkedLists!  I think this is an odd choice given that
+    hash tables make wonderful backing stores for Sets.  Thought
+    you should know!
+  * It looks like your CTF.IDF scores are going wrong somewhere.
+  * Also, see note in your Table constructor about Files.walk.
+  * Still!  You indexed, scored, ranked, and returned results.
+    Not bad!
+2. Design: 4/4
+3. Documentation: 4/4
+  * Nice observation about when to implement hashCodes.  This
+    is a common interview question.  I was asked this question
+    when I interviewed at Google!
+
+Total: 93.7%
